@@ -1,0 +1,6 @@
+TYPE;Object4rating;Min;Max;Text1Value;Text1Text;
+SCALE;Applied knowledge of ultrasound equipment: Familiarity with the equipment and its functions, i.e. selecting probe, using buttons and application of gel;1;5;1;Unable to operate equipment;3;Operates the equipment with some experience;5;Familiar with operating the equipment;
+SCALE;Image optimization: Consistently ensuring optimal image quality by adjusting gain, depth, focus, frequency etc;1;5;1;Fails to optimize the images;3;Competent image optimization but not done consistently;5;Consistent optimization of images;
+SCALE;Systematic examination: Consistently displaying systematic approach to the examination and presentation of relevant structures according to guidelines;1;5;1;Unsystematic approach;3;Displays some systematic approach;5;Consistently displays systematic approach;
+SCALE;Interpretation of images: Recognition of image pattern and interpretation of findings;1;5;1;Unable to interpret any findings;3;Does not consistently interpret findings correctly;5;Consistently interprets findings correctly;
+SCALE;Documentation of examination: Image recording and focused verbal/written documentation;1;5;1;Does not document any images;3;Documents most relevant images;5;Consistently documents relevant images;

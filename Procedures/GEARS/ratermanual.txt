@@ -1,0 +1,18 @@
+This assessment tool consisting of 6 items, rates the surgeon performing a robotic surgery on a scale from 1-5, throughout the entire procedure.  </br>
+
+All items are rated on 5-point-scales with descriptive word anchors at the ends and in the middle.  </br>
+
+A rating of 1 corresponds to the lowest level of performance while a rating of 5 is considered the highest proficiency. </br>
+
+
+
+Here is a general description of the requirements to receive either 2 or 4 points on an item:
+
+<ul>
+<li> 2-points: The bad performance which only partly solves the given task with some to many insecurities and meaningful mistakes </li>
+<li> 4 points: The excellent performance which solves the given task with some minor mistakes or insecurities </li>
+</ul>
+
+To ensure the most valid results from this assessment tool, you should aim to complete the assessment as close to the performance of the surgery as possible, ideally during the procedure, to combat recall bias. </br>
+
+This assessment should be performed without regards for the surgeon’s education level and previous experience. It is therefore to be expected that the inexperienced surgeon will score relatively lower than the experienced. That way it will be possible to keep track of any progression in the surgeons’ technical skills.  </br>

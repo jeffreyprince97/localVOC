@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tool selection</title>
+    <link rel="stylesheet" href="static/VOCCSS.css">
+</head>
+<body>
+  <div class="title">
+    <h1> Assessment tool </h1>
+    <h2> Choose speciality below </h2>
+  </div>
+
+
+<ul name=e>
+        {% for d,k in dirs %}
+            <li> <a href="/{{d}}"> {{k}}({{d}}) </a> </li>
+        {% endfor %}
+    </ul>
+
+
+  <script>
+  function switchChannel(el){
+  // find all the elements in your channel list and loop over them
+  Array.prototype.slice.call(document.querySelectorAll('ul[data-tag="channelList"] li')).forEach(function(element){
+    // remove the selected class
+    element.classList.remove('selected');
+    element.name = "";
+  });
+  // add the selected class to the element that was clicked
+  el.classList.add('selected');
+  el.name = "SELECTED";
+};
+
+function generator(){
+
+  Array.prototype.slice.call(document.querySelectorAll('ul[data-tag="channelList"] li')).forEach(function(element){
+    // remove the selected class
+    console.log(element.id);
+    console.log(element.name);
+
+    if (element.name == "SELECTED"){
+
+            var url = "../" + element.id;
+            window.location.href = url;
+        //xhr.setRequestHeader('Content-Type', 'application/json');
+    };
+  });
+
+};
+
+
+
+</script>
+</body>
+</html>

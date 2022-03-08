@@ -1,0 +1,16 @@
+TYPE;Object4rating;Min;Max;Text1Value;Text1Text;
+SCALE;Depth perception;0;5;1;Constantly overshoots target, wide swings, slow to correct;3;Some overshooting or missing of target, but quick to correct;5;Accurately directs instruments in the correct plane to target;
+SCALE;Bimanual dexterity;0;5;1;Uses only one hand, ignores nondominant hand, poor coordination between hands;3;Uses both hands, but does not optimize interaction between hands;5;Expertly uses both hands in a complementary way to provide optimal exposure;
+SCALE;Efficiency;0;5;1;Uncertain, inefficient efforts; many tentative movements; constantly changing focus or pesisting without progress;3;Slow, but planned movements are reasonably organized;5;Confident, efficient and safe conduct, maintains focus on task until it is better performed by way of an alternative approach;
+SCALE;Tissue handling;0;5;1;Rough movements, tears tissue, injures adjacent structures, poor grasper control, grasper frequently slips;3;Handles tissues reasonably well, minor trauma to adjacent tissue (ie, occasional unnecessary bleeding or slipping of the grasper);5;Handles tissues well, applies appropriate traction, negligible injury to adjacent structures;
+SCALE;Autonomy;0;5;1;Unable to complete entire task, even with verbal guidance;3;Able to complete task safely with moderate guidance;5;Able to complete task independently without prompting;
+YN;Uses cautery only when all conducting areas are in field of view;0;1;0;No;1;Yes;
+YN;Has good control of the instrument, minimizes recoil;0;1;0;No;1;Yes;
+YN;Grasps gallbladder near clips to begin dissection;0;1;0;No;1;Yes;
+YN;Readjusts tension on gallbladder to optimize exposure;0;1;0;No;1;Yes;
+YN;Avoids dissecting into liver causing undue bleeding;0;1;0;No;1;Yes;
+YN;Avoids perforation of the gallbladder;0;1;0;No;1;Yes;
+YN;Avoids spillage of gallstones;0;1;0;No;1;Yes;
+YN;Maximizes usefull dissection in 1 area before changing approach;0;1;0;No;1;Yes;
+YN;Performs dissection in appropriate plane the majority of the time;0;1;0;No;1;Yes;
+YN;Obviates the need for surgeon takeover;0;1;0;No;1;Yes;

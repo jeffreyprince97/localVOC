@@ -1,0 +1,3 @@
+DOI: 10.1016/j.juro.2011.09.032 </br>
+Article link: <a href="https://pubmed.ncbi.nlm.nih.gov/22099993/"> Link </a> </br>
+Tool PDF link: <a href="Procedures/{{d}}/Tool.pdf"> Link </a> </br>

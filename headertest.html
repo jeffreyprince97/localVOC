@@ -1,0 +1,514 @@
+<head>
+    <link rel='stylesheet' href='static/VOCCSS.css'>
+</head>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+<meta http-equiv='X-UA-Compatible' content='IE=Edge, chrome=1'>
+<meta http-equiv='Cache-control' content='no-store'>
+<title> Bronchoscopy</title>
+<div class='title'>
+    <h1> Assessment tool </h1>
+    <h2> Bronchoscopy </h2>
+</div>
+<a href='/' class=home> <button id=home> Home </button> </a>
+<div class='content'>
+    <div class='desctext1'>
+        <p class='desctext1'>The Bronchoscopy assessment tool allows standardized assessment of clinical bronchoscopy
+            procedures. </p>
+    </div>
+    <div class=btnsright><button id='myBtn'>Rater manual</button>
+        <div id='myModal' class='modal'>
+            <div class='modal-content'> <span class='close'>&times;</span> <b>Rater manual</b> </br>This assessment tool
+                consisting of 16 items, rates the surgeon performing a clinical bronchoscopy throughout the entire
+                procedure.
+
+                The 16 items cover:
+
+
+                <ul>
+                    <li>Administration of Local anesthesia (item 1) </li>
+                    <li>The ability to move around the bronchial tree in a gentle and competent way (items 2 & 9 - 11)
+                    </li>
+                    <li>Demonstrating anatomical knowledge (performing a systematic and thorough procedure with
+                        visualization of all 19 bronchial segments) (items 3 – 8) </li>
+                    <li>Ability to describe the procedure and the findings (items 12 - 16) </li>
+                </ul>
+
+                After completion of the procedure, the physician fills out the Thompson bronchitis index and writes a
+                general description of the procedure and findings. </br>
+                The items 1 – 11 are to be rated on a 3-point-scale. </br>
+                When assessing the physician’s Thompson bronchitis index, it should be compared with your own bronchitis
+                index for the patient as a gold standard. Total agreement scores 2 points, one point off scores 1 point
+                and more than one point off scores zero points. </br>
+                Item 16 is assessed by reading the physician’s general description of the procedure and rating it on a
+                5-point-scale. </br>
+                The maximum score from the 16 items is 34 points. </br>
+                Furthermore, you can assess the time needed to perform the procedure and divide it with the total score
+                to determine the physician’s quality score (score/min). </br>
+                To ensure the most valid results from this assessment tool, you should aim to complete the assessment as
+                close to the performance of the surgery as possible, ideally during the procedure, to combat recall
+                bias.</br>
+                This assessment should be performed without regards for the surgeon’s education level and previous
+                experience. It is therefore to be expected that the inexperienced surgeon will score relatively lower
+                than the experienced. That way it will be possible to keep track of any progression in the surgeon’s
+                technical skills. </br>
+
+            </div>
+        </div>
+        <div class='metadata'>
+            <p class='metadata'>DOI: 10.1159/000330061 </br>
+                Article link: <a href="https://pubmed.ncbi.nlm.nih.gov/21912087/"> Link </a> </br>
+                Tool PDF link: <a href="Procedures/{{d}}/Tool.pdf"> Link </a> </br>
+            <div class='anchortoggle'><input type='button' value='Toggle anchors' id='btnToggle' /></div>
+            </p>
+        </div>
+    </div>
+</div>
+<form action='' method='post'>
+    <div class=toolbox>
+        <div class=tools>
+            <div class=1tool1 id=obj1>
+                <p> <b>Scope insertion: Administration of LA:</b></p>
+            </div>
+            <div class=tool2>
+                <div class='option'><input type='radio' class='optionclick' id='obj1val0' name=obj1 value=0
+                        required><label for='obj1val0' style='vertical-align: super;'>0</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj1val1' name=obj1 value=1
+                        required><label for='obj1val1' style='vertical-align: super;'>1</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj1val2' name=obj1 value=2
+                        required><label for='obj1val2' style='vertical-align: super;'>2</label> </div>
+            </div>
+            <div class='tool3'></br>
+                <p> 0: Missing or inadequate administration of LA</br>
+                <p> 1: Acceptable</br>
+                <p> 2: Perfect administration of LA
+            </div>
+        </div>
+        <div class='comments1' style='display: flex;align-items: center;'><label for='comments1'>Comments: </label>
+            <input type='text' id='comments1' name='comments1' value=''></div>
+    </div>
+    </div>
+    </p>
+    <div class=toolbox>
+        <div class=tools>
+            <div class=2tool1 id=obj2>
+                <p> <b>Scope insertion: Administration of LA:</b></p>
+            </div>
+            <div class=tool2>
+                <div class='option'><input type='radio' class='optionclick' id='obj2val0' name=obj2 value=0
+                        required><label for='obj2val0' style='vertical-align: super;'>0</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj2val1' name=obj2 value=1
+                        required><label for='obj2val1' style='vertical-align: super;'>1</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj2val2' name=obj2 value=2
+                        required><label for='obj2val2' style='vertical-align: super;'>2</label> </div>
+            </div>
+            <div class='tool3'></br>
+                <p> 0: Needs several attempts to pass vocal cords</br>
+                <p> 1: Acceptable</br>
+                <p> 2: Perfect passage through vocal cords in first try
+            </div>
+        </div>
+        <div class='comments2' style='display: flex;align-items: center;'><label for='comments2'>Comments: </label>
+            <input type='text' id='comments2' name='comments2' value=''></div>
+    </div>
+    </div>
+    </p>
+    <div class=toolbox>
+        <div class=tools>
+            <div class=3tool1 id=obj3>
+                <p> <b>Right side: Right upper lobe:</b></p>
+            </div>
+            <div class=tool2>
+                <div class='option'><input type='radio' class='optionclick' id='obj3val0' name=obj3 value=0
+                        required><label for='obj3val0' style='vertical-align: super;'>0</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj3val1' name=obj3 value=1
+                        required><label for='obj3val1' style='vertical-align: super;'>1</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj3val2' name=obj3 value=2
+                        required><label for='obj3val2' style='vertical-align: super;'>2</label> </div>
+            </div>
+            <div class='tool3'></br>
+                <p> 0: False identification</br>
+                <p> 1: Uncertain but correct identification</br>
+                <p> 2: Secure and correct identification
+            </div>
+        </div>
+        <div class='comments3' style='display: flex;align-items: center;'><label for='comments3'>Comments: </label>
+            <input type='text' id='comments3' name='comments3' value=''></div>
+    </div>
+    </div>
+    </p>
+    <div class=toolbox>
+        <div class=tools>
+            <div class=4tool1 id=obj4>
+                <p> <b>Right side: Middle lobe:</b></p>
+            </div>
+            <div class=tool2>
+                <div class='option'><input type='radio' class='optionclick' id='obj4val0' name=obj4 value=0
+                        required><label for='obj4val0' style='vertical-align: super;'>0</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj4val1' name=obj4 value=1
+                        required><label for='obj4val1' style='vertical-align: super;'>1</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj4val2' name=obj4 value=2
+                        required><label for='obj4val2' style='vertical-align: super;'>2</label> </div>
+            </div>
+            <div class='tool3'></br>
+                <p> 0: False identification</br>
+                <p> 1: Uncertain but correct identification</br>
+                <p> 2: Secure and correct identification
+            </div>
+        </div>
+        <div class='comments4' style='display: flex;align-items: center;'><label for='comments4'>Comments: </label>
+            <input type='text' id='comments4' name='comments4' value=''></div>
+    </div>
+    </div>
+    </p>
+    <div class=toolbox>
+        <div class=tools>
+            <div class=tool1 id=obj5>
+                <p> <b>Right side: Right lower lobe:</b></p>
+            </div>
+            <div class=tool2>
+                <div class='option'><input type='radio' class='optionclick' id='obj5val0' name=obj5 value=0
+                        required><label for='obj5val0' style='vertical-align: super;'>0</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj5val1' name=obj5 value=1
+                        required><label for='obj5val1' style='vertical-align: super;'>1</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj5val2' name=obj5 value=2
+                        required><label for='obj5val2' style='vertical-align: super;'>2</label> </div>
+            </div>
+            <div class='tool3'></br>
+                <p> 0: False identification</br>
+                <p> 1: Uncertain but correct identification</br>
+                <p> 2: Secure and correct identification
+            </div>
+        </div>
+        <div class='comments5' style='display: flex;align-items: center;'><label for='comments5'>Comments: </label>
+            <input type='text' id='comments5' name='comments5' value=''></div>
+    </div>
+    </div>
+    </p>
+    <div class=toolbox>
+        <div class=tools>
+            <div class=tool1 id=obj6>
+                <p> <b>Left side: Left upper lobe - apical:</b></p>
+            </div>
+            <div class=tool2>
+                <div class='option'><input type='radio' class='optionclick' id='obj6val0' name=obj6 value=0
+                        required><label for='obj6val0' style='vertical-align: super;'>0</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj6val1' name=obj6 value=1
+                        required><label for='obj6val1' style='vertical-align: super;'>1</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj6val2' name=obj6 value=2
+                        required><label for='obj6val2' style='vertical-align: super;'>2</label> </div>
+            </div>
+            <div class='tool3'></br>
+                <p> 0: False identification</br>
+                <p> 1: Uncertain but correct identification</br>
+                <p> 2: Secure and correct identification
+            </div>
+        </div>
+        <div class='comments6' style='display: flex;align-items: center;'><label for='comments6'>Comments: </label>
+            <input type='text' id='comments6' name='comments6' value=''></div>
+    </div>
+    </div>
+    </p>
+    <div class=toolbox>
+        <div class=tools>
+            <div class=tool1 id=obj7>
+                <p> <b>Left side: Lingula:</b></p>
+            </div>
+            <div class=tool2>
+                <div class='option'><input type='radio' class='optionclick' id='obj7val0' name=obj7 value=0
+                        required><label for='obj7val0' style='vertical-align: super;'>0</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj7val1' name=obj7 value=1
+                        required><label for='obj7val1' style='vertical-align: super;'>1</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj7val2' name=obj7 value=2
+                        required><label for='obj7val2' style='vertical-align: super;'>2</label> </div>
+            </div>
+            <div class='tool3'></br>
+                <p> 0: False identification</br>
+                <p> 1: Uncertain but correct identification</br>
+                <p> 2: Secure and correct identification
+            </div>
+        </div>
+        <div class='comments7' style='display: flex;align-items: center;'><label for='comments7'>Comments: </label>
+            <input type='text' id='comments7' name='comments7' value=''></div>
+    </div>
+    </div>
+    </p>
+    <div class=toolbox>
+        <div class=tools>
+            <div class=tool1 id=obj8>
+                <p> <b>Left side: Left lower lobe:</b></p>
+            </div>
+            <div class=tool2>
+                <div class='option'><input type='radio' class='optionclick' id='obj8val0' name=obj8 value=0
+                        required><label for='obj8val0' style='vertical-align: super;'>0</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj8val1' name=obj8 value=1
+                        required><label for='obj8val1' style='vertical-align: super;'>1</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj8val2' name=obj8 value=2
+                        required><label for='obj8val2' style='vertical-align: super;'>2</label> </div>
+            </div>
+            <div class='tool3'></br>
+                <p> 0: False identification</br>
+                <p> 1: Uncertain but correct identification</br>
+                <p> 2: Secure and correct identification
+            </div>
+        </div>
+        <div class='comments8' style='display: flex;align-items: center;'><label for='comments8'>Comments: </label>
+            <input type='text' id='comments8' name='comments8' value=''></div>
+    </div>
+    </div>
+    </p>
+    <div class=toolbox>
+        <div class=tools>
+            <div class=tool1 id=obj9>
+                <p> <b>Scope movement: Collisions:</b></p>
+            </div>
+            <div class=tool2>
+                <div class='option'><input type='radio' class='optionclick' id='obj9val0' name=obj9 value=0
+                        required><label for='obj9val0' style='vertical-align: super;'>0</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj9val1' name=obj9 value=1
+                        required><label for='obj9val1' style='vertical-align: super;'>1</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj9val2' name=obj9 value=2
+                        required><label for='obj9val2' style='vertical-align: super;'>2</label> </div>
+            </div>
+            <div class='tool3'></br>
+                <p> 0: Repeated scope collisions</br>
+                <p> 1: Few collisions</br>
+                <p> 2: No unnecessary scope collisions
+            </div>
+        </div>
+        <div class='comments9' style='display: flex;align-items: center;'><label for='comments9'>Comments: </label>
+            <input type='text' id='comments9' name='comments9' value=''></div>
+    </div>
+    </div>
+    </p>
+    <div class=toolbox>
+        <div class=tools>
+            <div class=tool1 id=obj10>
+                <p> <b>Scope movement: Red-out:</b></p>
+            </div>
+            <div class=tool2>
+                <div class='option'><input type='radio' class='optionclick' id='obj10val0' name=obj10 value=0
+                        required><label for='obj10val0' style='vertical-align: super;'>0</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj10val1' name=obj10 value=1
+                        required><label for='obj10val1' style='vertical-align: super;'>1</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj10val2' name=obj10 value=2
+                        required><label for='obj10val2' style='vertical-align: super;'>2</label> </div>
+            </div>
+            <div class='tool3'></br>
+                <p> 0: Unacceptable length of time in 'red-out'</br>
+                <p> 1: Minimal time in 'red-out'</br>
+                <p> 2: No time in 'red-out'
+            </div>
+        </div>
+        <div class='comments10' style='display: flex;align-items: center;'><label for='comments10'>Comments: </label>
+            <input type='text' id='comments10' name='comments10' value=''></div>
+    </div>
+    </div>
+    </p>
+    <div class=toolbox>
+        <div class=tools>
+            <div class=tool1 id=obj11>
+                <p> <b>Scope movement: Centering:</b></p>
+            </div>
+            <div class=tool2>
+                <div class='option'><input type='radio' class='optionclick' id='obj11val0' name=obj11 value=0
+                        required><label for='obj11val0' style='vertical-align: super;'>0</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj11val1' name=obj11 value=1
+                        required><label for='obj11val1' style='vertical-align: super;'>1</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj11val2' name=obj11 value=2
+                        required><label for='obj11val2' style='vertical-align: super;'>2</label> </div>
+            </div>
+            <div class='tool3'></br>
+                <p> 0: Frequent pointing away from lumen</br>
+                <p> 1: Scope centered most of the time</br>
+                <p> 2: Scope always centered
+            </div>
+        </div>
+        <div class='comments11' style='display: flex;align-items: center;'><label for='comments11'>Comments: </label>
+            <input type='text' id='comments11' name='comments11' value=''></div>
+    </div>
+    </div>
+    </p>
+    <div class=toolbox>
+        <div class=tools>
+            <div class=tool1 id=obj12>
+                <p> <b>Thompson Bronchitis Index: Erythema:</b></p>
+            </div>
+            <div class=tool2>
+                <div class='option'><input type='radio' class='optionclick' id='obj12val0' name=obj12 value=0
+                        required><label for='obj12val0' style='vertical-align: super;'>0</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj12val1' name=obj12 value=1
+                        required><label for='obj12val1' style='vertical-align: super;'>1</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj12val2' name=obj12 value=2
+                        required><label for='obj12val2' style='vertical-align: super;'>2</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj12val3' name=obj12 value=3
+                        required><label for='obj12val3' style='vertical-align: super;'>3</label> </div>
+            </div>
+            <div class='tool3'></br>
+                <p> 0: Normal</br>
+                <p> 1: Light red</br>
+                <p> 2: Red</br>
+                <p> 3: Beefy red
+            </div>
+        </div>
+        <div class='comments12' style='display: flex;align-items: center;'><label for='comments12'>Comments: </label>
+            <input type='text' id='comments12' name='comments12' value=''></div>
+    </div>
+    </div>
+    </p>
+    <div class=toolbox>
+        <div class=tools>
+            <div class=tool1 id=obj13>
+                <p> <b>Thompson Bronchitis Index: Edema:</b></p>
+            </div>
+            <div class=tool2>
+                <div class='option'><input type='radio' class='optionclick' id='obj13val0' name=obj13 value=0
+                        required><label for='obj13val0' style='vertical-align: super;'>0</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj13val1' name=obj13 value=1
+                        required><label for='obj13val1' style='vertical-align: super;'>1</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj13val2' name=obj13 value=2
+                        required><label for='obj13val2' style='vertical-align: super;'>2</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj13val3' name=obj13 value=3
+                        required><label for='obj13val3' style='vertical-align: super;'>3</label> </div>
+            </div>
+            <div class='tool3'></br>
+                <p> 0: Normal</br>
+                <p> 1: Blunting of airway bifurcations</br>
+                <p> 2: Loss of normal airway wall indentations</br>
+                <p> 3: Airway occluded
+            </div>
+        </div>
+        <div class='comments13' style='display: flex;align-items: center;'><label for='comments13'>Comments: </label>
+            <input type='text' id='comments13' name='comments13' value=''></div>
+    </div>
+    </div>
+    </p>
+    <div class=toolbox>
+        <div class=tools>
+            <div class=tool1 id=obj14>
+                <p> <b>Thompson Bronchitis Index: Secretions:</b></p>
+            </div>
+            <div class=tool2>
+                <div class='option'><input type='radio' class='optionclick' id='obj14val0' name=obj14 value=0
+                        required><label for='obj14val0' style='vertical-align: super;'>0</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj14val1' name=obj14 value=1
+                        required><label for='obj14val1' style='vertical-align: super;'>1</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj14val2' name=obj14 value=2
+                        required><label for='obj14val2' style='vertical-align: super;'>2</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj14val3' name=obj14 value=3
+                        required><label for='obj14val3' style='vertical-align: super;'>3</label> </div>
+            </div>
+            <div class='tool3'></br>
+                <p> 0: Normal</br>
+                <p> 1: Strand of clear mucus</br>
+                <p> 2: Globs of mucus</br>
+                <p> 3: Airway occluded
+            </div>
+        </div>
+        <div class='comments14' style='display: flex;align-items: center;'><label for='comments14'>Comments: </label>
+            <input type='text' id='comments14' name='comments14' value=''></div>
+    </div>
+    </div>
+    </p>
+    <div class=toolbox>
+        <div class=tools>
+            <div class=tool1 id=obj15>
+                <p> <b>Thompson Bronchitis Index: Friability:</b></p>
+            </div>
+            <div class=tool2>
+                <div class='option'><input type='radio' class='optionclick' id='obj15val0' name=obj15 value=0
+                        required><label for='obj15val0' style='vertical-align: super;'>0</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj15val1' name=obj15 value=1
+                        required><label for='obj15val1' style='vertical-align: super;'>1</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj15val2' name=obj15 value=2
+                        required><label for='obj15val2' style='vertical-align: super;'>2</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj15val3' name=obj15 value=3
+                        required><label for='obj15val3' style='vertical-align: super;'>3</label> </div>
+            </div>
+            <div class='tool3'></br>
+                <p> 0: Normal</br>
+                <p> 1: Punctate submucosal hemorrhages with scope trauma</br>
+                <p> 2: Linear submucosal hemorrhages with scope trauma</br>
+                <p> 3: Frank bleeding with scope trauma
+            </div>
+        </div>
+        <div class='comments15' style='display: flex;align-items: center;'><label for='comments15'>Comments: </label>
+            <input type='text' id='comments15' name='comments15' value=''></div>
+    </div>
+    </div>
+    </p>
+    <div class=toolbox>
+        <div class=tools>
+            <div class=tool1 id=obj16>
+                <p> <b>Description of procedure: The description is:</b></p>
+            </div>
+            <div class=tool2>
+                <div class='option'><input type='radio' class='optionclick' id='obj16val0' name=obj16 value=0
+                        required><label for='obj16val0' style='vertical-align: super;'>0</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj16val1' name=obj16 value=1
+                        required><label for='obj16val1' style='vertical-align: super;'>1</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj16val2' name=obj16 value=2
+                        required><label for='obj16val2' style='vertical-align: super;'>2</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj16val3' name=obj16 value=3
+                        required><label for='obj16val3' style='vertical-align: super;'>3</label> </div>
+                <div class='option'><input type='radio' class='optionclick' id='obj16val4' name=obj16 value=4
+                        required><label for='obj16val4' style='vertical-align: super;'>4</label> </div>
+            </div>
+            <div class='tool3'></br>
+                <p> 0: Unacceptable</br>
+                <p> 1: Poor</br>
+                <p> 2: Acceptable</br>
+                <p> 3: Good</br>
+                <p> 4: Perfect
+            </div>
+        </div>
+        <div class='comments16' style='display: flex;align-items: center;'><label for='comments16'>Comments: </label>
+            <input type='text' id='comments16' name='comments16' value=''></div>
+    </div>
+    </div>
+    </p><input type='submit' value='Save to PDF'>
+</form>
+<script src='//code.jquery.com/jquery-1.11.1.min.js'></script>
+<meta charset='utf-8'>
+<script>
+    $(function () {
+        $('#btnToggle').click(function () {
+            $('.tool3').toggle();
+        });
+    });
+
+    var modal = document.getElementById('myModal');
+    var btn = document.getElementById('myBtn');
+    var span = document.getElementsByClassName('close')[0];
+    btn.onclick = function () {
+        modal.style.display = 'block';
+    }
+    span.onclick = function () {
+        modal.style.display = 'none';
+    }
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = 'none';
+        }
+    }
+
+    $(function () {
+    for (let i = 1; i < 5; i++) {
+        $('.'+i+'tool1').click(function () {
+            $('.comments'+i).toggle();
+
+        });
+    }
+    });
+
+    // SET STYLE FOR TOOL1 WORKS ONLY ONE WAY!
+    $(function() {
+    $('#btnToggle').click(function() {
+       $('.tool3').toggle();
+       if (document.querySelector('.tool1').style.width = '20'+'%'){
+            document.querySelector('.tool1').style.width = '35'+'%' }
+       else if (document.querySelector('.tool1').style.width = '35'+'%') {
+            document.querySelector('.tool1').style.width = '20'+'%' }
+   });
+});
+
+    </script>

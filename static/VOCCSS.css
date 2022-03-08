@@ -1,0 +1,345 @@
+
+:root {
+  --margin: 75px;
+  --txt-color: #333370;
+}
+
+a { text-decoration: none; color:#333370; }
+
+a:visited { text-decoration: none; color:#333370; }
+
+a:active { text-decoration: none; }
+
+a:hover { text-decoration: none; color:#667c99; }
+
+
+
+/* Navigation bar */
+
+.topnav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.topnavtitles {
+  background-color: white;
+  overflow: hidden;
+  padding: 25px 0px 25px;
+  margin-left: var(--margin);
+}
+
+.topnavtitles a {
+  color: #333370;
+  text-align: left;
+  margin: 10px;
+  /* padding: 14px; */
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 19px;
+  font-family: "mari","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.topnavtitles a:hover{
+  color: #6363b0;
+}
+
+.topnavtitles a.active {
+  /* background-color: lightblue; */
+  color: #333370;
+}
+
+/* Search box */
+
+.topnav input[type=text]{
+  margin-right: 100px;
+  margin-top: 25px;
+  height: 20px;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+/* Overskrift */
+
+.title{
+  background-image: linear-gradient(to right,#667c99, #393b6c);
+  color: white;
+  text-indent: var(--margin);
+  padding: 1px;
+}
+
+h1{
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "mari","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h2{
+  font-size: 35px;
+  font-weight: normal;
+  font-family: "mari","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#home {
+  margin-left: var(--margin);
+  margin-top: 20px; /* skal gerne være centreret ift. afsnittet til venstre */
+  border-radius: 12px;
+  background: #333370;
+  width: 150px;
+  height: 35px;
+  color: white;
+  cursor: pointer;
+  font-family: "mari","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+a.home {
+  font-size: 25px;
+  font-weight: normal;
+  font-family: "mari","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+/* Tekstafsnit + RATER MANUAL */
+
+div.content{
+  display: flex;
+  justify-content: space-between;
+}
+
+div.desctext1 {
+  max-width: 550px;
+}
+
+
+p.desctext1{
+  font-size: 16px;
+  color: #333370;
+  margin-left: var(--margin);
+  font-family: "mari","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#proclist{
+  padding: 25px 0px 25px 50px;
+}
+
+#Load{
+  margin-left: var(--margin);
+  border-radius: 12px;
+  background: #333370;
+  width: 180px;
+  height: 35px;
+  color: white;
+  cursor: pointer;
+  font-family: "mari","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#myBtn{
+  border-radius: 12px;
+  background: #333370;
+  width: 100%;
+  height: 40px;
+  color: white;
+  cursor: pointer;
+  font-family: "mari","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 1500px;
+  font-family: "mari","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: var(--txt-color);
+  line-height: 1.5;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+p.ratermanual{
+  font-family: "mari","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #333370;
+  line-height: 1.5;
+}
+ul{
+  font-family: "mari","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #333370;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+p.metadata{
+  font-family: "mari","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #333370;
+  line-height: 1.5;
+}
+
+.anchortoggle {
+    display:flex;
+    justify-content: center;
+}
+
+.btnsright{
+  margin-right: var(--margin);
+}
+
+#btnToggle {
+  margin-bottom: 10px;
+  border-radius: 12px;
+  background: #333370;
+  width: 100%;
+  height: 40px;
+  color: white;
+  cursor: pointer;
+  font-family: "mari","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.toolbox {
+    background: rgba(102, 124, 153, 0.3);
+    padding: 10px;
+    margin-left: 75px;
+    margin-right: 75px;
+    color: var(--txt-color);
+    font-family: "mari","Helvetica Neue",Helvetica,Arial,sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.tools {
+
+    color: var(--txt-color);
+    font-family: "mari","Helvetica Neue",Helvetica,Arial,sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.YN {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tool1 {
+    width: 20%;
+}
+
+.tool2 {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.optionclick {
+    width: 2em;
+    height: 2em;
+}
+
+.tool3 {
+    width: 20%;
+    text-align: left;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=submit] {
+  margin-left: 75;
+  border-radius: 12px;
+  background: #333370;
+  width: 180px;
+  height: 35px;
+  color: white;
+  cursor: pointer;
+  font-family: "mari","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+iframe{
+  margin-left: 100px;
+}
+
+.footer{
+    position:relative;
+    bottom:0;
+    width:100%;
+    height:100px;   /* Height of the footer */
+    background:#667c99;
+}
+
+.bottomtext1{
+  font-size: 15px;
+  color: white;
+  margin-left: var(--margin);
+  font-family: "mari","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.bottomtext2{
+  font-size: 12px;
+  color: white;
+  margin-left: var(--margin);
+  font-family: "mari","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+.divdownload{
+  color: #333370;
+  text-align: left;
+  margin: 10px;
+  margin-left: 75px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 19px;
+  font-family: "mari","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#downloadbtn{
+  border-radius: 12px;
+  background: #333370;
+  width: 180px;
+  height: 35px;
+  color: white;
+  cursor: pointer;
+  font-family: "mari","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+div.metadataresult{
+  font-family: "mari","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #333370;
+  line-height: 1.5;
+  margin-left: 75px;
+}
