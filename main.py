@@ -113,12 +113,12 @@ def resultpresent():
         print("GET. Makes PDF")
         procedure = pr.getprocedure()
         print(procedure)
-        timestr = time.strftime("%Y%m%d-%H%M")
+        timestr = time.strftime("%Y%m%d-%H%M%S")
         pr.settime(timestr)
         rgen.generateresult(procedure,timestr)
         gpdf.generatepdf(procedure,timestr)
 
-    return render_template('result'+procedure+'.html')
+    return render_template('result'+procedure+timestr+'.html')
 
 if __name__ == "__main__":
     app.run(debug=False)

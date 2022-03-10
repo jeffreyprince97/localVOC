@@ -41,7 +41,8 @@ def generateresult(procedure,timesstr):
 
     html += "<a href='/' class=home> <button id=home> Home </button> </a>"
 
-    with open(p_template +"result"+procedure+".html", 'w') as fhtml:
+
+    with open(p_template +"result"+procedure+timestr+".html", 'w') as fhtml:
         fhtml.write(html)
 
 
