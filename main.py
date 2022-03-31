@@ -1,6 +1,6 @@
 import os
 import time
-from flask import Flask, flash, jsonify, render_template, request,redirect, send_file, url_for
+from flask import Flask, flash, jsonify, render_template, request,redirect, send_file, url_for, send_from_directory
 import webbrowser
 
 
@@ -90,8 +90,15 @@ def handledata(name):
                 for cc in comments:
                     f.write("%s;\n" % (cc))
 
+            procedure = pr.getprocedure()
+            print(procedure)
+            timestr = time.strftime("%Y%m%d-%H%M%S")
+            pr.settime(timestr)
+            rgen.generateresult(procedure,timestr)
+            gpdf.generatepdf(procedure,timestr)
 
-            return redirect('result') # Redirect to result pages for pdf download
+            return send_from_directory(myp+'static/',filename=procedure+"-"+timestr+'.pdf', as_attachment=True)    
+            # return redirect('result') # Redirect to result pages for pdf download
 
         elif request.method == 'GET':
             pr.setprocedure(name)
